@@ -1,0 +1,11 @@
+#! /bin/bash
+
+
+./retourne_code_erreur fdds fsdds
+tmp=$?
+echo $tmp
+
+
+./retourne_code_erreur fdds fsdds fzrfzfz
+tmp=$?
+echo $tmp
